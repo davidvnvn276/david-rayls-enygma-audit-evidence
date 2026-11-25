@@ -1,0 +1,289 @@
+{
+  "expanded_transfer_checks": {
+    "shielded_calls": 12,
+    "output_notes": 26,
+    "forwarded_exits": 2
+  },
+  "call_paths": [
+    {
+      "hash": "0x3379d9458bec3275c5e578cd697aa3a268abec3ad58918dcdff91f0310483f1b",
+      "block": 25270264,
+      "calls": [
+        {
+          "target": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "selector": "0xb76080b2",
+          "method": "depositWithAuthorization"
+        }
+      ]
+    },
+    {
+      "hash": "0x1de52cba91c50961a39029ff661c6f891c558530ad8da1cd71a46bbb164bd07f",
+      "block": 25310474,
+      "calls": [
+        {
+          "target": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 3,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "hash": "0x02f3b9231d2b505a1036808b61df8f95ed95ea891786d20a54f037ec28ebc20e",
+      "block": 25309642,
+      "calls": [
+        {
+          "target": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 3,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "hash": "0x3b5a53ab10aecb1d573e98d4e7adf400678e87119a6654c3fa4c364e9c747cab",
+      "block": 25262020,
+      "calls": [
+        {
+          "target": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        },
+        {
+          "target": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 2,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        },
+        {
+          "target": "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "hash": "0x99f104127c11a4f635fb950dae43a4ed1b4096f97298c66ad73857fd20ff5067",
+      "block": 25262380,
+      "calls": [
+        {
+          "target": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        },
+        {
+          "target": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 2,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        },
+        {
+          "target": "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "hash": "0xcbf0f63894d58d3d1e85d5b2ecdffc0a43d1f331d2a75565ee9ccee320a3852b",
+      "block": 25303026,
+      "calls": [
+        {
+          "target": "0x12b6640048deb2e8ffda4bc10bb2a640b70eca6d",
+          "selector": "0xe2076320",
+          "method": "execute",
+          "forwarded_to": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "forwarded_method": "partialWithdraw"
+        },
+        {
+          "target": "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "hash": "0x74ea2ef5269beb130229d087b91a2f517815e2b0dd97d0bcf3901da377d12338",
+      "block": 25304509,
+      "calls": [
+        {
+          "target": "0x12b6640048deb2e8ffda4bc10bb2a640b70eca6d",
+          "selector": "0xe2076320",
+          "method": "execute",
+          "forwarded_to": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "forwarded_method": "partialWithdraw"
+        },
+        {
+          "target": "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "hash": "0x5a84068136fbc126a59cea8b0dc008ccf95c05de78d906395c3ed1db2190f450",
+      "block": 25310187,
+      "calls": [
+        {
+          "target": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        },
+        {
+          "target": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "selector": "0xaacd552c",
+          "method": "transferV2",
+          "inputs": 1,
+          "outputs": 2,
+          "ciphertext_sizes": [
+            [
+              1088,
+              92
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "registry": {
+    "registry": "0xa473291ffb33e2276f364fae169f03c4406719e9",
+    "runtime_observation_block": 25497545,
+    "runtime_observation_utc": "2026-11-25T15:31:49+00:00",
+    "getter_observation_block": 25497684,
+    "getter_observation_utc": "2026-11-25T15:33:05+00:00",
+    "auditor_public_key_bytes": 1184,
+    "auditor_public_key_keccak": "0x4151c50e9250f5818a53f9e48e734bd4209407d19f966ede4f7988dd4af863e5",
+    "selection_log_windows": [
+      [
+        25260000,
+        25269999
+      ],
+      [
+        25270000,
+        25279999
+      ],
+      [
+        25300000,
+        25309999
+      ],
+      [
+        25310000,
+        25319999
+      ],
+      [
+        25390000,
+        25399999
+      ],
+      [
+        25480000,
+        25489999
+      ]
+    ],
+    "samples": [
+      {
+        "hash": "0x96ee120814d5d95e9f74a0b0ef2848e2a9e9f8a770e64fc10d9e672d12d7083d",
+        "block": 25265556,
+        "utc": "2026-11-24T04:20:59+00:00",
+        "view_public_key_bytes": 1184,
+        "kem_capsule_bytes": 1088,
+        "encrypted_view_payload_bytes": 92,
+        "matches_calldata_event_and_latest_getters": true,
+        "historic_state": "pruned"
+      },
+      {
+        "hash": "0xdfc7a8bd88d4ed9530b97f5eaa4ed82eb5be48f21e7146995204f914a800f8cc",
+        "block": 25302434,
+        "utc": "2026-11-24T09:57:00+00:00",
+        "view_public_key_bytes": 1184,
+        "kem_capsule_bytes": 1088,
+        "encrypted_view_payload_bytes": 92,
+        "matches_calldata_event_and_latest_getters": true,
+        "historic_state": "pruned"
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "chain_id": 7295799,
+  "state_observation_block": 25495637,
+  "state_observation_time_utc": "2026-11-25T15:14:26+00:00",
+  "sample_counts": {
+    "shield": 1,
+    "shared-vault-spend": 2,
+    "bundled-usdr-vault-spend": 3,
+    "unshield": 2
+  },
+  "selection_log_windows": [
+    [
+      25260000,
+      25269999
+    ],
+    [
+      25270000,
+      25279999
+    ],
+    [
+      25300000,
+      25309999
+    ],
+    [
+      25310000,
+      25319999
+    ],
+    [
+      25390000,
+      25399999
+    ],
+    [
+      25480000,
+      25489999
+    ]
+  ],
+  "cases": [
+    {
+      "case": "shield",
+      "hash": "0x3379d9458bec3275c5e578cd697aa3a268abec3ad58918dcdff91f0310483f1b",
+      "block": 25270264,
+      "utc": "2026-11-24T05:03:48+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "depositWithAuthorization",
+          null
+        ]
+      ],
+      "receipt_logs": 4,
+      "encrypted_notes": 1,
+      "public_usdr": "10",
+      "transaction_root": "0xbd75ce5af271f1e75f626a6287b4e74e0d721ba4389628212e99146017ffd047",
+      "receipt_root": "0xe12fe1ee96b53caf3bef859b9bcb9f2b7ec4ba5a7e6ceec2a69a9b9825793686",
+      "block_hash": "0xefd74fbf1acc72bcbf200173327b7a91d5106d8b78b0a11b726aae98605aa815"
+    },
+    {
+      "case": "shared-vault-spend",
+      "hash": "0x1de52cba91c50961a39029ff661c6f891c558530ad8da1cd71a46bbb164bd07f",
+      "block": 25310474,
+      "utc": "2026-11-24T11:10:07+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "transferV2",
+          null
+        ]
+      ],
+      "receipt_logs": 7,
+      "encrypted_notes": 3,
+      "public_usdr": null,
+      "transaction_root": "0x04a2b72320109e459c0578cb639cec04b29a921800b8789f78a2caa59ce68dc4",
+      "receipt_root": "0xb4b78a1dc3bdf79f13ba625191f41b4be562170374bda8750d2136f963d4a160",
+      "block_hash": "0x8f8c8884b4051d6253fc394552e39875982dcc2bf5222950abef7ce1092098e9"
+    },
+    {
+      "case": "shared-vault-spend",
+      "hash": "0x02f3b9231d2b505a1036808b61df8f95ed95ea891786d20a54f037ec28ebc20e",
+      "block": 25309642,
+      "utc": "2026-11-24T11:02:33+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "transferV2",
+          null
+        ]
+      ],
+      "receipt_logs": 7,
+      "encrypted_notes": 3,
+      "public_usdr": null,
+      "transaction_root": "0x33d10714f070bbbaeaac4498f6ef00dc3c5c4af883e0c0d04070a053fd5933a8",
+      "receipt_root": "0x796483d12095c42d27e5da9c0b5184dcb408f5e7bc8fd24e1ef07095eea8a197",
+      "block_hash": "0x2dcf685f21e7cbc10e0afe30725cb7cd4e41d34a8f25b24f34072b8d80c3dff6"
+    },
+    {
+      "case": "bundled-usdr-vault-spend",
+      "hash": "0x3b5a53ab10aecb1d573e98d4e7adf400678e87119a6654c3fa4c364e9c747cab",
+      "block": 25262020,
+      "utc": "2026-11-24T03:48:51+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "transferV2",
+          false
+        ],
+        [
+          "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "transferV2",
+          false
+        ],
+        [
+          "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "transferV2",
+          false
+        ]
+      ],
+      "receipt_logs": 16,
+      "encrypted_notes": 6,
+      "public_usdr": null,
+      "transaction_root": "0x7a30fe7d317fe047afd291f8e9cc3c6c011b64941fc8044029d00609a7c00d47",
+      "receipt_root": "0xda072d1f73c60de76d31958568743b2f3ffb1f1f6b283f164380b0dc4bd84df2",
+      "block_hash": "0x48faf30b16424a9d62f9e602f73954a6d61be92a11fe4005711e65d9dcdb7c35"
+    },
+    {
+      "case": "bundled-usdr-vault-spend",
+      "hash": "0x99f104127c11a4f635fb950dae43a4ed1b4096f97298c66ad73857fd20ff5067",
+      "block": 25262380,
+      "utc": "2026-11-24T03:52:07+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "transferV2",
+          false
+        ],
+        [
+          "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "transferV2",
+          false
+        ],
+        [
+          "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "transferV2",
+          false
+        ]
+      ],
+      "receipt_logs": 16,
+      "encrypted_notes": 6,
+      "public_usdr": null,
+      "transaction_root": "0x7b436eb3e7e65f21bb297d3372e8351fd231d636f48e9e87740a5b343abcd193",
+      "receipt_root": "0x1f038aca8d967abec7c6c9f0d51e7c526689c07b876c4c2422c080059517925e",
+      "block_hash": "0x70b1e08e92443d377e890d60f51ccbf15baedb74660b8dd92252bb636d00b7a2"
+    },
+    {
+      "case": "unshield",
+      "hash": "0xcbf0f63894d58d3d1e85d5b2ecdffc0a43d1f331d2a75565ee9ccee320a3852b",
+      "block": 25303026,
+      "utc": "2026-11-24T10:02:23+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x12b6640048deb2e8ffda4bc10bb2a640b70eca6d",
+          "0xe2076320",
+          false
+        ],
+        [
+          "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "transferV2",
+          false
+        ]
+      ],
+      "receipt_logs": 10,
+      "encrypted_notes": 2,
+      "public_usdr": "0.2",
+      "transaction_root": "0x51058d92962d8f16d2da9e3663bcd5e0496431047490979fcbce3a4b6b38b99e",
+      "receipt_root": "0x7ae25b12789526370155162624b0f7fffe0e5fc8a1bd412ee3b3e4e73f210f60",
+      "block_hash": "0xd66a291aa9a19998e1d58bd6ebc5da5451be8ebea047d9cca578967aff284417"
+    },
+    {
+      "case": "unshield",
+      "hash": "0x74ea2ef5269beb130229d087b91a2f517815e2b0dd97d0bcf3901da377d12338",
+      "block": 25304509,
+      "utc": "2026-11-24T10:15:52+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x12b6640048deb2e8ffda4bc10bb2a640b70eca6d",
+          "0xe2076320",
+          false
+        ],
+        [
+          "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+          "transferV2",
+          false
+        ]
+      ],
+      "receipt_logs": 10,
+      "encrypted_notes": 2,
+      "public_usdr": "0.01",
+      "transaction_root": "0xd945281b4e0932840dc599b30c6270b96c83665b80dcf2d48325bb746106094f",
+      "receipt_root": "0x15989542ccf24ef510d018e7b48c008a914c6bcda0dfc36662032c9b6a4ecb07",
+      "block_hash": "0xe91920efc504daf405d4d8ebbdb8204368142b2226cb789b13c7cc6ee85e472e"
+    },
+    {
+      "case": "bundled-usdr-vault-spend",
+      "hash": "0x5a84068136fbc126a59cea8b0dc008ccf95c05de78d906395c3ed1db2190f450",
+      "block": 25310187,
+      "utc": "2026-11-24T11:07:30+00:00",
+      "native_value": 0,
+      "child_or_direct_calls": [
+        [
+          "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+          "transferV2",
+          false
+        ],
+        [
+          "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2",
+          "transferV2",
+          false
+        ]
+      ],
+      "receipt_logs": 10,
+      "encrypted_notes": 4,
+      "public_usdr": null,
+      "transaction_root": "0x824771f0c01ab3379da39ea5d3c70ce041ce9169b5c783c3630d08ff2abbad56",
+      "receipt_root": "0x9d16a1d3eb93f84ef3bb59919bea1c02a00dd4417d34e323564b9d3549f2b118",
+      "block_hash": "0xcc952dcc1fe7c69cca70479257ff8f5425ed09310a1c4ece91a289e876faecd0"
+    }
+  ],
+  "false_positive_value_zero": 3,
+  "false_positive_encrypted_note_present": 3,
+  "one_base_unit_edit_changed_receipt_root": true
+}

@@ -1,0 +1,8 @@
+{
+  "asset_url": "https://enygma-testnet.rayls.com/assets/index-CYOh56Vc.js",
+  "asset_sha256": "0ea946f2631b33dce526afad43da872a0d4ec8e8ff03cd1aa17bf4e5be889c06",
+  "embedded_proxy": "0xa473291ffb33e2276f364fae169f03c4406719e9",
+  "deployment_tx": "0x472504db63c0a47fd71cdb3a1f22caf4510a61ce49d713e42bdadfea70d3f4a9",
+  "deployment_block": 23212003,
+  "embedded_auditor_key_keccak": "0x4151c50e9250f5818a53f9e48e734bd4209407d19f966ede4f7988dd4af863e5"
+}

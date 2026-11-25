@@ -1,0 +1,86 @@
+[
+  {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 2,
+    "method": "eth_blockNumber",
+    "params": []
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 3,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0x1de52cba91c50961a39029ff661c6f891c558530ad8da1cd71a46bbb164bd07f"
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 4,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x1de52cba91c50961a39029ff661c6f891c558530ad8da1cd71a46bbb164bd07f"
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 5,
+    "method": "eth_getBlockReceipts",
+    "params": [
+      "0x182350a"
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 6,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x182350a",
+        "toBlock": "0x182350a",
+        "address": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2"
+      }
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 7,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0x02f3b9231d2b505a1036808b61df8f95ed95ea891786d20a54f037ec28ebc20e"
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 8,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x02f3b9231d2b505a1036808b61df8f95ed95ea891786d20a54f037ec28ebc20e"
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 9,
+    "method": "eth_getBlockReceipts",
+    "params": [
+      "0x18231ca"
+    ]
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 10,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x18231ca",
+        "toBlock": "0x18231ca",
+        "address": "0x9c5ad5e5ea5b5910e7fd1e1cc7b70ce0e4bf06c2"
+      }
+    ]
+  }
+]
